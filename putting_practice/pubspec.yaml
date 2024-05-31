@@ -91,3 +91,11 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+fonts:
+  - family: NotoSans
+    fonts:
+      - asset: assets/fonts/NotoSans-Regular.ttf
+      - asset: assets/fonts/NotoSans-Bold.ttf
+      - asset: assets/fonts/NotoSans-Italic.ttf
+      - asset: assets/fonts/NotoSans-BoldItalic.ttf
