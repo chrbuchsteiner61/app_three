@@ -69,7 +69,7 @@ class ResultsChart extends StatelessWidget {
                   space: 8.0,
                   child: Text(
                     DateFormat('dd.MM, hh:mm').format(DateTime.fromMillisecondsSinceEpoch(value.toInt())),
-                    style: const TextStyle(color: Colors.black, fontSize: 10),
+                    style: const TextStyle(color: Colors.black, fontSize: 8),
                   ),
                 );
               },
@@ -85,7 +85,7 @@ class ResultsChart extends StatelessWidget {
                   space: 8.0,
                   child: Text(
                     value.toInt().toString(),
-                    style: const TextStyle(color: Colors.black, fontSize: 10),
+                    style: const TextStyle(color: Colors.black, fontSize: 12),
                   ),
                 );
               },
